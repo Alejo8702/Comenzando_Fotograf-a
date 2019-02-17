@@ -1,0 +1,49 @@
+h1{
+	background-color: #5b7989;
+	color: white;
+	border-radius: 10px 10px 0px 0px;
+}
+#imagen-central img{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+#imagen-central{
+	background-color: #82c3a6;
+}
+#imagen-secundaria{
+	background-color: #d5c75f;
+}
+#imagen-secundaria img{
+	width:50%;
+}
+#imagen-derecha:hover {
+	border: 2px solid;
+	background-color: #82c3a6;
+	transform: rotate(10deg);
+	transition: transform 1s;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#contacto{
+	order: 1;
+}
+#terminos{
+	order: 2;
+}
+#redes-sociales{
+	order: 3;
+}
+#derechos{
+	order: 4;
+}
+#derechos img{
+	width: 20px;
+}
+#redes-sociales img{
+	width: 20px;
+}
+
