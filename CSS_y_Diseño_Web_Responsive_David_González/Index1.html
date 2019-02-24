@@ -2,54 +2,71 @@
 <html>
   <head>
      <meta charset="utf-8">
-     <meta name="viewport" content="width=device,user-scalable=no">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
      <link rel="stylesheet" href="css/estilos.css">
      <title>Comenzando con la Fotografía</title>
   </head>
   <body>
-  	<header>
-  		<h1>Comenzando con la Fotografía</h1>
-  	</header>
-  	<div id="imagen-central">
-  		<figure>
-  			<img src="img/Mittens.jpg" alt="Foto de gato" title="Foto de gato">
-  		</figure>
+  	<div class="principal">
+	  	<header>
+	  		<h1>Comenzando con la Fotografía</h1>
+	  		<nav>
+	  			<ul>
+	  				<li><a class="active" href="">Inicio</a></li>
+	  				<li><a href="html/paisajes.html">Paisajes</a></li>
+	  				<li><a href="html/retratos.html">Retratos</a></li>
+	  				
+	  			</ul>
+	  		</nav>
+	  	</header>
+	  	<div id="imagen-central">
+	  		<picture>
+	  			<img src="img/mittens.jpg" alt="Foto gato" title="Foto gato">
+	  		</picture>
+	  	</div>
+	  	<div id="imagenes-secundarias">
+	  		<picture>
+	  			<a href="html/paisajes.css">
+	  				<img id="imagen2" src="img/paisajes.jpg" alt="Foto paisaje" title="Foto paisaje">
+	  				<figcaption>Paisajes</figcaption>
+	  			</a>
+				<a href="html/retratos.css">
+					<img id="imagen3" src="img/retratos.jpg" alt="Foto retratos gatos" title="Foto retratos gatos">
+					<figcaption>Retratos</figcaption>
+				</a>	
+	  		</picture>
+	  	</div>
+	  	<footer>
+	  		<section id="contacto">
+	  			<p>
+	  				<strong>Contacto</strong>
+	  				<br>fotografia.alejo@gmail.com
+	  				<br>Carrera 55 # 71 -19 Bogotá
+	  				<br>3158787898
+	  			</p>
+	  		</section>
+	  		<section id="terminos">
+	  			<p>
+	  				<strong>Terminos</strong>
+	  				<br>Conoce nuestros terminos y condiciones
+	  			</p>
+	  		</section>
+	  		<section id="redes">
+	  			<p>
+	  				<strong>Visitanos en:</strong>
+	  				<br><img src="img/logofacebook.png" alt="logo facebook" title="logo facebook"> Fotografías Alejo
+	  				<br><img src="img/logotwitter.png" alt="logo twitter" title="logo twitter"> @fotografíasAlejo
+	  				<br><img src="img/logoinstagram.png" alt="logo instagram" title="logo instagram"> Fotografías Alejo
+	  			</p>
+	  		</section>
+	  		<section id="derechos">
+	  			<p>
+	  				<strong>Derechos Reservados</strong>
+	  				<br><img src="img/derechosautor.png" alt="simbolo derechos de autor" title="simbolo derechos de autor"> David González 2019
+	  			</p>
+	  		</section>
+	  	</footer>
   	</div>
-  	<div id="imagen-secundaria">
-  		<nav>
-  			<figure>
-  				<a href="html/paisajes.css">Paisajes<img id= imagen-derecha src="img/paisajes.jpg" alt="Imagen Paisaje" title="Imagen Paisaje"></a>
-  				<img src="img/retratos.jpg" alt="Imagen retrato gatos" title="Imagen retrato gatos">
-  			</figure>
-  		</nav>
-  	</div>
-  	<footer>
-  		<section id="contacto">
-  			<p>
-  				Contacto
-  				<br>fotografoexpert@gmail.com
-  				<br>cra 5 # 72 - 56
-  				<br>3107896532
-  			</p>
-  		</section>
-  		<section id="terminos">
-  			<p>
-  				Terminos
-  				<br>Aplican terminos y condiciones
-  			</p>
-  		</section>
-  		<section id="redes-sociales">
-  			<p>
-  				Conoce nuestras redes sociales
-  				<br><img src="img/logofacebook.png" alt="Logo Facebook" title="Logo Facebook">FotografíasAlejo
-  			</p>	
-  		</section>
-  		<section id="derechos">
-  			<p>
-  				David Alejandro González Toro
-  				<br><img src="img/derechosautor.png" alt="Simbolo Derechos de Autor" title="Simbolo Derechos de Autor"> 2019
-  			</p>
-  		</section>
-  	</footer>
   </body>
 </html>
